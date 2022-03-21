@@ -1,6 +1,6 @@
 We present our parallel version of GJ algorithm to join the relational tables by using graphical models.  
 
-The code is for lastFM-A1, lastFM-A1-dup and lastFM-A2. To see the queries, please refer to our new paper " Graphical Join, To Be Published Soon".
+The code is for lastFM-A1, lastFM-A1-dup and lastFM-A2. To see the queries and other settings, please refer to our new paper " Graphical Join, To Be Published Soon".
 
 The results for in-memory and in-disk runs for the three queries are shown below. The results show that GJ has a better performance even in parallel setting.  
 
@@ -15,4 +15,4 @@ https://link.springer.com/chapter/10.1007/978-3-642-03275-2_37
 As GJ stores the summary of the join result, it is a CPU-bound join algorithm, while other algorithms spend a lot of time to store huge join results in disk.  
  
 
-<img src="results/A1-parallel-disk.png" width="400"/> <img src="results/A2-parallel-disk.png" width="400"/> <img src="results/A1-dup-parallel-disk.png" width="400"/>
+<img src="results/A1-parallel-disk.png" width="400"/> <img src="results/A2-parallel-disk.png" width="400"/> <img src="results/A1-dup-parallel-disk.png" width="400"/> <img src="results/A1-parallel-mem.png" width="400"/> <img src="results/A2-parallel-mem.png" width="400"/> <img src="results/A1-dup-parallel-mem.png" width="400"/> 
