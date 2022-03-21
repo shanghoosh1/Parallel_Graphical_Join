@@ -14,5 +14,6 @@ https://link.springer.com/chapter/10.1007/978-3-642-03275-2_37
 
 As GJ stores the summary of the join result, it is a CPU-bound join algorithm, while other algorithms spend a lot of time to store huge join results in disk.  
  
+The Y axis in the below figures is the running time in seconds, and the X axis shows the number of cores.
 
 <img src="results/A1-parallel-disk-log.png" width="400"/> <img src="results/A2-parallel-disk-log.png" width="400"/> <img src="results/A1-dup-parallel-disk-log.png" width="400"/> <img src="results/A1-parallel-mem-log.png" width="400"/> <img src="results/A2-parallel-mem-log.png" width="400"/> <img src="results/A1-dup-parallel-mem-log.png" width="400"/> 
