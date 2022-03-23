@@ -6,7 +6,7 @@ The results for in-memory and in-disk runs for the three queries are shown below
 
 There are several phases of SGJ algorithm. 
 i) Loading the data in memory 2)Scanning the tables to make the potential functions ii) Variable elimination/deletion (inference) and building the GFJS generator. iv) Traversing the GFJS generator to generate the summary 
-Storing the summary on disk v) Loading the summary and de-summarization.
+v)Storing the summary on disk vi) Loading the summary and de-summarization.
 
 Only part of GJ that is not embarrassingly parallelizable is the inference. The inference algorithm is partially sequential, but there are several works that make VEA efficiently parallelizable (topological parallelization and in-clique parallelization). Please have a look at the papers:  
 https://dl.acm.org/doi/10.5555/602770.602830  
